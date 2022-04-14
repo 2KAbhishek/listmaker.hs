@@ -1,1 +1,5 @@
-# Excluded files
+# Haskell generated files
+listmaker
+listmaker.hi
+listmaker.o
+
