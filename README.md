@@ -23,10 +23,10 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Make lists with Haskell ✅🔢</h3>
 
 <figure>
-  <img src= "images/screenshot.png" alt="listmaker.hs Demo" style="width:100%">
+  <img src= "images/screenshot.jpg" alt="listmaker.hs Demo" style="width:100%">
   <br/>
   <figcaption>listmaker.hs screenshot</figcaption>
 </figure>
@@ -35,17 +35,18 @@
 
 ## What is this
 
-listmaker.hs is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+listmaker.hs is a utility that allows you to create and maintain lists from the cli.
+Uses text files for storing lists, has CRUD capabilities, and is very simple to use.
 
 ## Inspiration
 
-listmaker.hs was inspired by `<reason/idea>`.
+Was learning Haskell, wanted to make a quick utility to manage my todo lists.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `ghc`
 
 ## Getting listmaker.hs
 
@@ -54,51 +55,29 @@ To install listmaker.hs, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/listmaker.hs
 cd listmaker.hs
-<install_command>
+touch list.txt # Create a new list file e.g todo.md
+ghc listmaker.hs # Compile the program
+./listmaker list.txt # Run the program
 ```
 
 ## Using listmaker.hs
 
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
-```
+The commands are displayed after running the program.
+You can use it on any text file.
 
 ## How it was built
 
-listmaker.hs was built using `<tech/library>`
+listmaker.hs was built using `vim`, and `ghc`.
 
 ## Challenges faced
 
-While building listmaker.hs the main challenges were `<issue/difficulty>`
+- Wrapping my head around some Haskell concepts was tricky.
 
 ## What I learned
 
-While building listmaker.hs I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Learned Haskell basics by building.
+- Learned about the Haskell toolchain.
+- File IO in Haskell.
 
 Hit the ⭐ button if you found this useful.
 
