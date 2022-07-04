@@ -26,7 +26,7 @@
 <h3>Make lists with Haskell ✅🔢</h3>
 
 <figure>
-  <img src= "images/screenshot.jpg" alt="listmaker.hs Demo" style="width:100%">
+  <img src= "images/screenshot.jpg" alt="listmaker.hs Demo" style="width:auto">
   <br/>
   <figcaption>listmaker.hs screenshot</figcaption>
 </figure>
